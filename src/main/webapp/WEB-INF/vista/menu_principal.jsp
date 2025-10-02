@@ -9,7 +9,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Tienda</title>
-<link rel="stylesheet" type="text/css" href="${css}/index.css">
+	<c:set var="context" value="${pageContext.request.contextPath}"/>
+	<link rel="stylesheet" type="text/css" href="${context}/css/index.css">
 </head>
 <body>
 	<header class="cabecera">
@@ -17,7 +18,7 @@
 	</header>
 	<div id="contPrincipal">
 		<ul>
-			<li><a href="${home}/listado_productos">Productos</a></li>
+			<li><a href="alumnos/listado">Listado de Alumnos</a></li>
 			<li><a href="${home}/alta_producto">Crear Producto</a></li>
 			<li><a href="${home}/productos_fabricante">Productos por Fabricante</a></li>
 			<li><a href="${home}/productos_fabricante_json">Productos por Fabricante JSON</a></li>

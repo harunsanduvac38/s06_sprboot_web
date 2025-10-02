@@ -10,7 +10,6 @@ public class S06SprbootWebApplication {
 		
 		SpringApplication.run(S06SprbootWebApplication.class, args);
 		
-		
 	}
 
 }
